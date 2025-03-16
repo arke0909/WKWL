@@ -35,13 +35,16 @@ public class CustomTextEffectSO : Editor
         EditorGUILayout.PropertyField(_contentsText);
         EditorGUILayout.BeginHorizontal();
         {
-            EditorGUILayout.LabelField(_textSize.displayName,GUILayout.Width(Width(_textSize.displayName,7)));
-            EditorGUILayout.PropertyField(_textSize, GUIContent.none);
-            EditorGUILayout.LabelField(_textColor.displayName, GUILayout.Width(Width(_textColor.displayName, 7)));
-            EditorGUILayout.PropertyField(_textColor, GUIContent.none);
+            EditorGUILayout.LabelField(_textSize.displayName,GUILayout.Width(Width(_textSize.displayName)));
+            EditorGUILayout.PropertyField(_textSize, GUIContent.none,GUILayout.Width(50));
+            EditorGUILayout.LabelField(_textColor.displayName, GUILayout.Width(Width(_textColor.displayName)));
+            EditorGUILayout.PropertyField(_textColor, GUIContent.none, GUILayout.Width(70));
         }
         EditorGUILayout.EndHorizontal();
+
+        //EditorGUILayout.LabelField(_isShake.displayName, GUILayout.Width(Width(_isShake.displayName)));
         EditorGUILayout.PropertyField(_isShake);
+
         if(_isShake.boolValue == true)
         {
             EditorGUILayout.PropertyField(_shakeType);
@@ -51,8 +54,8 @@ public class CustomTextEffectSO : Editor
         serializedObject.ApplyModifiedProperties();
     }
 
-    private float Width(string str, float wid)
+    private float Width(string str)
     {
-        return str.Length * wid;
+        return str.Length * 7;
     }
 }

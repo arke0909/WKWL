@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
 
-public class TextEffectList : MonoBehaviour
+[CreateAssetMenu(menuName ="SO/TextEffect/List")]
+public class TextEffectList : ScriptableObject
 {
     public List<TextEffectSO> _effects = new List<TextEffectSO>();
 }
