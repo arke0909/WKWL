@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: TextBox
+    uniqueID: 2474124545
+    locked: 0
+  - name: UI
+    uniqueID: 163619563
+    locked: 0
+  - name: VFX
+    uniqueID: 1777136863
+    locked: 0
