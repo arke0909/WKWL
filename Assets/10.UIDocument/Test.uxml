@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/10.UIDocument/USS/style.uss?fileID=7433441132597879392&amp;guid=9f6adde1638e20e4188439f838909415&amp;type=3#style" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 255, 255); background-image: url(&quot;project://database/Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputAction.png?fileID=2800000&amp;guid=40265a896a0f341bb956e90c59025a29&amp;type=3#InputAction&quot;); justify-content: center;">
+        <ui:Button text="Button" display-tooltip-when-elided="true" parse-escape-sequences="true" class="btn" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+        <ui:ProgressBar value="22" title="my-progress" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+.btn {
+    background-color: rgb(255, 0, 0);
+    font-size: 68px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 10%;
+}
+
+.btn:active {
+    background-color: rgb(209, 255, 0);
+}
