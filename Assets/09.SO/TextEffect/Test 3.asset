@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6763e80d8a6544446b3cd13c61ea0ee1, type: 3}
   m_Name: Test 3
   m_EditorClassIdentifier: 
-  _contentsText: 
-  _textSize: 0
-  _textColor: {r: 0, g: 0, b: 0, a: 0}
+  _contentsText: 1554354354353
+  _textSize: 25
+  _textColor: {r: 0, g: 1, b: 0.23198462, a: 0}
   _isShake: 0
   _shakeType: 0
   _shakePower: 0
